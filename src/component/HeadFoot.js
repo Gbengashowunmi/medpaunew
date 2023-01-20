@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../component/headFoot.scss";
 import { HiMenuAlt3 } from "react-icons/hi";
 
@@ -15,6 +15,12 @@ import { MdEmail, MdLocationPin } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 export default function HeadFoot({ children }) {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  }
   // Sticky Menu Area
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
@@ -33,13 +39,15 @@ export default function HeadFoot({ children }) {
 
   return (
     <div className="head-foot-wrapper">
+      <div onClick={handleToggle} className={` ${isOpen ? 'overlay' : 'show'}`}></div>
       <header className="nav">
         <div className="comapany-icon">
           <h2>MEDPAU</h2>
-        <div ><HiMenuAlt3 className="nav-bar"/></div>
+          
+        <div onClick={handleToggle}><HiMenuAlt3 className={`nav-bar ${isOpen ? 'white' : ''}`}/></div>
 
         </div>
-        <ul>
+        <ul className={`navbar-content ${isOpen ? 'open' : ''}`}>
         <NavLink to="/"><li>Home</li></NavLink>
           <NavLink to="/about"><li>About</li></NavLink>
           <li>Service</li>
