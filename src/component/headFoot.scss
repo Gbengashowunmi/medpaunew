@@ -36,6 +36,11 @@
   justify-content: space-between;
   padding: 20px 30px;
   align-items: center;
+  .comapany-icon{
+    h2{
+      color: var(--clr-primary);
+    }
+  }
   a {
     text-decoration: none;
     color: black;

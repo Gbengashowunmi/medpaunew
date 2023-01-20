@@ -11,11 +11,11 @@ export default function Reviews() {
 
       <div className="reviewer">
         <div className="reviewer-img">
-          <img src="/images/4-2.png" alt="user" />
+          <img src="/images/ESTHER.jpg" alt="user" />
         </div>
         <div className="reveiwer-info">
-          <h4 className="name">Dr. Gbenga Showunmi</h4>
-          <p className="job">Web Developer</p>
+          <h4 className="name">GODWINS ESTHER</h4>
+          <p className="job">BUSINESS DEV. MANAGER</p>
         </div>
       </div>
     </div>

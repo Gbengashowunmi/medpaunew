@@ -44,7 +44,7 @@ export default function HeadFoot({ children }) {
       ></div>
       <header className="nav">
         <div className="comapany-icon">
-          <h2>MEDPAU</h2>
+          <h2>MedPau</h2>
 
           <div onClick={handleToggle}>
             <HiMenuAlt3 className={`nav-bar ${isOpen ? "white" : ""}`} />

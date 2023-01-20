@@ -1,6 +1,7 @@
 import React from "react";
 import HeadFoot from "../component/HeadFoot";
 import ProductCard from "../component/productCard/ProductCard";
+import Reviews from "../component/reviews/Reviews";
 import "./landing.scss";
 export default function LandingPage() {
   return (
@@ -201,6 +202,33 @@ export default function LandingPage() {
 
       <sectio className="our-vision"></sectio>
 
+
+      <section className="reviews">
+        <h3 className="light-blue-bg-text head">OUR CLIENTS</h3>
+        <h2>
+          Our Satisfied Clients' Reviews
+          <div className="reviews-wrapper">
+            <div>
+              <Reviews />
+            </div>
+            <div>
+              <Reviews />
+            </div>
+            <div>
+              <Reviews />
+            </div>
+            <div>
+              <Reviews />
+            </div>
+            <div>
+              <Reviews />
+            </div>
+            <div>
+              <Reviews />
+            </div>
+          </div>
+        </h2>
+      </section>
       <aside className="featured-post">
         <div className="head">
           <h6>FEATURE</h6>

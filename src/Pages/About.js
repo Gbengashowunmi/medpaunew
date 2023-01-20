@@ -11,6 +11,7 @@ export default function About() {
     <HeadFoot>
       <div className="about-head">
         <div className="image">
+          <div className="overlay"></div>
           <img src="/images/breadcrumb-image-1.jpg" alt="about-us" />
           <div className="texts">
             <h2>About Us</h2>
@@ -24,7 +25,7 @@ export default function About() {
       </div>
       <aside className="what-about-us">
         <div className="img">
-          <img src="/images/1.jpg" alt="about-us" />
+          <img src="/images/MD-PIX-2.jpeg" alt="about-us" />
         </div>
         <div className="details">
           <h4 className="light-blue-bg-text">WHAT ABOUT US</h4>
@@ -51,7 +52,15 @@ export default function About() {
             <button>Read More</button>
           </p>
 
-          <ul>
+          <ul 
+                      data-aos="zoom-in-right"
+                      data-aos-offset="50"
+                      data-aos-delay="10"
+                      data-aos-duration="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-mirror="true"
+                      data-aos-once="false"
+          >
             <li>Happy with Staff</li>
             <li>Quality of Care Services</li>
             <li>Intervention Success</li>
@@ -72,6 +81,7 @@ export default function About() {
             head="Project Management
 "
             decsription="From consultancy to renovations and procurement, we are your number one partners."
+
           />
           <OurServices
             head="Medical Equipment"
@@ -82,6 +92,10 @@ export default function About() {
             decsription="Our qualified Service Engineers offer predictable maintenance and after sales support services"
           />
         </div>
+      </section>
+
+      <section className="choose-us">
+        
       </section>
       <section className="reviews">
         <h3 className="light-blue-bg-text head">OUR CLIENTS</h3>
