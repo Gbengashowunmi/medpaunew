@@ -61,3 +61,17 @@ background-color: var(--clr-primary);
     }
 }
 
+
+@media (max-width:900px) {
+    .product-container{
+        .image{
+            .sale{
+                p{
+                    padding: 2px 10px;
+                top: 3%;
+                right: 2%;
+                }
+            }
+        }
+    }
+}

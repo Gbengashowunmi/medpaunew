@@ -50,51 +50,64 @@ export default function LandingPage() {
             <span>CLOSED</span>
           </h6>
           <hr />
-          <h6>Time's not Flexible?
-</h6>
-<p>We provide high quality, integrated healthcare services, based on a patient - centered</p>
-<button>BOOK AN APPOINTMENT</button>
+          <h6>Time's not Flexible?</h6>
+          <p>
+            We provide high quality, integrated healthcare services, based on a
+            patient - centered
+          </p>
+          <button>BOOK AN APPOINTMENT</button>
         </div>
         <div className="work-hour our-process">
           <div className="img">
             <img src="/images/card_image_01.jpg" alt="aside" />
           </div>
-<div className="text">
-  <h1>What we Offer</h1>
-  <p>Our qualified Service Engineers offer predictable maintenance and after sales support services</p>
-  <button className="read-more">READ MORE</button>
-</div>
+          <div className="text">
+            <h1>What we Offer</h1>
+            <p>
+              Our qualified Service Engineers offer predictable maintenance and
+              after sales support services
+            </p>
+            <button className="read-more">READ MORE</button>
+          </div>
         </div>
         <div className="work-hour our-process">
-        <div className="img">
+          <div className="img">
             <img src="/images/card_image_02.jpg" alt="aside" />
           </div>
-<div className="text">
-  <h1>Our Process</h1>
-  <p>Our qualified Service Engineers offer predictable maintenance and after sales support services</p>
-  <button className="read-more">READ MORE</button>
-</div>
+          <div className="text">
+            <h1>Our Process</h1>
+            <p>
+              Our qualified Service Engineers offer predictable maintenance and
+              after sales support services
+            </p>
+            <button className="read-more">READ MORE</button>
+          </div>
         </div>
       </section>
 
-      <sectio className="our-vision">
-
-      </sectio>
+      <sectio className="our-vision"></sectio>
 
       <aside className="featured-post">
-    <div className="head">
-<h6>FEATURE</h6>
-<h1>Featured Products </h1>
-<button> SEE MORE</button>
-    </div>
-    <div className="products-container">
-    <div><ProductCard image="/images/drager--300x300.png"/></div>
-    <div><ProductCard image="/images/csm_BAS011_4008S_07f521bc0b-300x300.jpg"/></div>
-    <div><ProductCard image="/images/dialysiscouch-300x300.jpg"/></div>
-    <div><ProductCard image="/images/drager--300x300.png"/></div>
-
-    </div>
-  </aside>
+        <div className="head">
+          <h6>FEATURE</h6>
+          <h1>Featured Products </h1>
+          <button> SEE MORE</button>
+        </div>
+        <div className="products-container">
+          <div>
+            <ProductCard image="/images/drager--300x300.png" />
+          </div>
+          <div>
+            <ProductCard image="/images/csm_BAS011_4008S_07f521bc0b-300x300.jpg" />
+          </div>
+          <div>
+            <ProductCard image="/images/dialysiscouch-300x300.jpg" />
+          </div>
+          <div>
+            <ProductCard image="/images/drager--300x300.png" />
+          </div>
+        </div>
+      </aside>
     </HeadFoot>
   );
 }
