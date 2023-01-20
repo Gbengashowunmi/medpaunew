@@ -22,7 +22,7 @@ position: relative;
   width: 3rem;
   height: 3rem;
   border-radius: 10px;
-  background-color: var(--clr-secondary);
+  background-color: var(--clr-primary);
   color: white;
   text-align: center;
   position: fixed;

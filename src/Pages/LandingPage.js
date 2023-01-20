@@ -90,7 +90,7 @@ export default function LandingPage() {
       <aside className="featured-post">
         <div className="head">
           <h6>FEATURE</h6>
-          <h1>Featured Products </h1>
+          <h2>Featured Products </h2>
           <button> SEE MORE</button>
         </div>
         <div className="products-container">
