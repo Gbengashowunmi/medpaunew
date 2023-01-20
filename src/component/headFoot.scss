@@ -241,6 +241,8 @@ footer {
     }
     ul {
       color: white;
+      .appointment-btn{width: fit-content;}
+
     }
     .nav-bar {
       display: block;
@@ -264,7 +266,6 @@ footer {
       backdrop-filter: blur(6px);
       transform: translateX(100%);
       z-index: 95;
-      .appointment-btn{width: fit-content;}
     }
 
     .navbar-content.open {

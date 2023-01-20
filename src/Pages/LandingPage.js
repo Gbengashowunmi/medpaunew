@@ -108,6 +108,20 @@ export default function LandingPage() {
           </div>
         </div>
       </aside>
+
+      <aside className="new-arrivals">
+    <div className="head">
+<h6>FEATURE</h6>
+<h2>New Arrivals</h2>
+    </div>
+    <div className="products-container">
+
+    <div><ProductCard image="/images/2-removebg-preview.png"/></div>
+    <div><ProductCard image="/images/9__1_-removebg-preview.png"/></div>
+    <div><ProductCard image="/images/2-removebg-preview.png"/></div>
+    <div><ProductCard image="/images/9__1_-removebg-preview.png"/></div>
+    </div>
+  </aside>
     </HeadFoot>
   );
 }

@@ -14,7 +14,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        opacity: 1;
+        opacity: 0;
         background-color: var(--clr-primary);
         transition: .6s;
         z-index: 90;
@@ -33,7 +33,10 @@
     transform: scale(1.01);
 
 }
+.service-container:hover .overlay{
+    opacity: 1;
 
+}
 @media (max-width:900px) {
     .service-container{
         padding: 1rem;
