@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import About from "./Pages/About";
 import ScrollToTopNav from "./component/ScrollToTopNav";
+import Shop from "./Pages/shop/Shop";
 AOS.init();
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage/>}></Route>
         <Route path="about" element={<About/>}></Route>
+        <Route path="shop" element={<Shop/>}></Route>
       </Routes>
 
       </BrowserRouter>

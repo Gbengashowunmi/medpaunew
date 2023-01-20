@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronRight, FaPhone } from "react-icons/fa";
 import { MdOutlineHome } from "react-icons/md";
+import { NavLink } from "react-router-dom";
 import HeadFoot from "../component/HeadFoot";
 import OurServices from "../component/ourServices/OurServices";
 import Reviews from "../component/reviews/Reviews";
@@ -17,7 +18,7 @@ export default function About() {
             <h2>About Us</h2>
             <p>
               <MdOutlineHome />
-              <span>HOME</span> <FaChevronRight />
+              <NavLink to="/"><span>HOME</span></NavLink> <FaChevronRight />
               <span className="active">ABOUT US</span>
             </p>
           </div>
@@ -74,8 +75,8 @@ export default function About() {
         </div>
       </aside>
       <section className="services">
-        <h3 className="light-blue-bg-text head">OUR SERVICES</h3>
-        <h2>Explore Our Main Service</h2>
+        <h4 className="light-blue-bg-text head">OUR SERVICES</h4>
+        <h3>Explore Our Main Service</h3>
         <div className="services-wrapper">
           <OurServices
             head="Project Management
@@ -98,8 +99,8 @@ export default function About() {
         
       </section>
       <section className="reviews">
-        <h3 className="light-blue-bg-text head">OUR CLIENTS</h3>
-        <h2>
+        <h4 className="light-blue-bg-text head">OUR CLIENTS</h4>
+        <h3>
           Our Client Happy Say About Us
           <div className="reviews-wrapper">
             <div>
@@ -121,7 +122,7 @@ export default function About() {
               <Reviews />
             </div>
           </div>
-        </h2>
+        </h3>
       </section>
       <section className="our-process"></section>
     </HeadFoot>
