@@ -204,9 +204,9 @@ export default function LandingPage() {
 
 
       <section className="reviews">
-        <h3 className="light-blue-bg-text head">OUR CLIENTS</h3>
-        <h2>
-          Our Satisfied Clients' Reviews
+        <h6 className="light-blue-bg-text head">OUR CLIENTS</h6>
+        <h3>
+          Our Satisfied Clients' Reviews</h3>
           <div className="reviews-wrapper">
             <div>
               <Reviews />
@@ -227,7 +227,7 @@ export default function LandingPage() {
               <Reviews />
             </div>
           </div>
-        </h2>
+        
       </section>
       <aside className="featured-post">
         <div className="head">

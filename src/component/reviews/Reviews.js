@@ -14,7 +14,7 @@ export default function Reviews() {
           <img src="/images/ESTHER.jpg" alt="user" />
         </div>
         <div className="reveiwer-info">
-          <h4 className="name">GODWINS ESTHER</h4>
+          <h6 className="name">GODWINS ESTHER</h6>
           <p className="job">BUSINESS DEV. MANAGER</p>
         </div>
       </div>
