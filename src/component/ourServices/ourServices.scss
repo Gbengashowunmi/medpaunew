@@ -1,0 +1,46 @@
+.service-container{
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px var( --clr-border-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 4rem;
+    text-align: left;
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        background-color: var(--clr-primary);
+        transition: .6s;
+        z-index: 90;
+    }
+    .read-more-btn{
+        background-color: transparent;
+        border: 1px solid var(--clr-primary);
+        padding:.5rem;
+        color: var(--clr-primary);
+    }
+}
+
+.service-container:hover {
+    transition: .6s;
+    cursor: pointer;
+    transform: scale(1.01);
+
+}
+
+@media (max-width:900px) {
+    .service-container{
+        padding: 1rem;
+
+        .read-more-btn{
+            background-color: transparent;
+            padding:.2rem;
+        }
+    }
+}
