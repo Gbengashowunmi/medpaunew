@@ -302,13 +302,14 @@ main {
 
 @media (max-width: 990px) {
   main {
+    height: 25rem;
     margin-bottom: 1rem;
     align-items: flex-start;
     .carousel {
       .carousel-inner {
         .carousel-item {
           .details {
-            width: 55%;
+            width: 90%;
             margin-left: 10%;
             padding-top: 13vw;
           }
@@ -322,7 +323,7 @@ main {
   }
   .hero-card-wrapper {
     position: relative;
-    padding: 40px;
+    padding: 15px;
 
     .hero-cards {
       display: flex;
