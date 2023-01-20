@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./Pages/LandingPage";
 import About from "./Pages/About";
 import ScrollToTopNav from "./component/ScrollToTopNav";
-
 AOS.init();
 function App() {
   return (

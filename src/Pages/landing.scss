@@ -21,7 +21,7 @@ main {
   }
   .hero-text {
     width: 60%;
-    margin-left: 2rem;
+    margin-left: 50px;
     h1 {
       font-size: 7vw;
     }
@@ -35,7 +35,7 @@ main {
     margin-left: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    column-gap: 20px;
     .hero-card {
       border-left: 1px solid var(--clr-secondary);
       border-top: 1px solid var(--clr-secondary);
@@ -221,9 +221,12 @@ main {
     grid-template-columns: 1fr;
     height: fit-content;
     top: 50vw;
+  row-gap: 10px;
+
 
 .hero-card{
-  height: 10rem;
+  height: fit-content;
+  padding: 40px;
 
   h3{
     color: white;

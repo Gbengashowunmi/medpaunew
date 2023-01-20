@@ -14,22 +14,58 @@ export default function LandingPage() {
         </div>
 
         <div className="hero-cards">
-          <div className="hero-card">
+          <div
+            className="hero-card"
+            data-aos="zoom-in-right"
+            data-aos-offset="50"
+            data-aos-delay="10"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h3>What we sell</h3>
             <button>Check it out</button>
           </div>
-          <div className="hero-card">
+          <div
+            className="hero-card"
+            data-aos="zoom-in-right"
+            data-aos-offset="50"
+            data-aos-delay="10"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h3>Need an Appointment?</h3>
             <button>Book Now</button>
           </div>
-          <div className="hero-card">
+          <div
+            className="hero-card"
+            data-aos="zoom-in-right"
+            data-aos-offset="50"
+            data-aos-delay="10"
+            data-aos-duration="1400"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
             <h3>Have a complain?</h3>
             <button>Contact our Engineers</button>
           </div>
         </div>
       </main>
       <section className="schedule-section">
-        <div className="work-hour schedule">
+        <div
+          className="work-hour schedule"
+          data-aos="zoom-in"
+          data-aos-offset="20"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <h3>Working Hours</h3>
           <hr />
           <h6>
@@ -57,7 +93,16 @@ export default function LandingPage() {
           </p>
           <button>BOOK AN APPOINTMENT</button>
         </div>
-        <div className="work-hour our-process">
+        <div
+          className="work-hour our-process"
+          data-aos="zoom-in"
+          data-aos-offset="20"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <div className="img">
             <img src="/images/card_image_01.jpg" alt="aside" />
           </div>
@@ -70,7 +115,16 @@ export default function LandingPage() {
             <button className="read-more">READ MORE</button>
           </div>
         </div>
-        <div className="work-hour our-process">
+        <div
+          className="work-hour our-process"
+          data-aos="zoom-in"
+          data-aos-offset="20"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
           <div className="img">
             <img src="/images/card_image_02.jpg" alt="aside" />
           </div>
@@ -93,7 +147,16 @@ export default function LandingPage() {
           <h2>Featured Products </h2>
           <button> SEE MORE</button>
         </div>
-        <div className="products-container">
+        <div
+          className="products-container"
+          data-aos="fade-up"
+          data-aos-offset="20"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+        >
           <div>
             <ProductCard image="/images/drager--300x300.png" />
           </div>
@@ -110,18 +173,34 @@ export default function LandingPage() {
       </aside>
 
       <aside className="new-arrivals">
-    <div className="head">
-<h6>FEATURE</h6>
-<h2>New Arrivals</h2>
-    </div>
-    <div className="products-container">
-
-    <div><ProductCard image="/images/2-removebg-preview.png"/></div>
-    <div><ProductCard image="/images/9__1_-removebg-preview.png"/></div>
-    <div><ProductCard image="/images/2-removebg-preview.png"/></div>
-    <div><ProductCard image="/images/9__1_-removebg-preview.png"/></div>
-    </div>
-  </aside>
+        <div className="head">
+          <h6>FEATURE</h6>
+          <h2>New Arrivals</h2>
+        </div>
+        <div
+          className="products-container"
+          data-aos="fade-up"
+          data-aos-offset="20"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="true"
+        >
+          <div>
+            <ProductCard image="/images/2-removebg-preview.png" />
+          </div>
+          <div>
+            <ProductCard image="/images/9__1_-removebg-preview.png" />
+          </div>
+          <div>
+            <ProductCard image="/images/2-removebg-preview.png" />
+          </div>
+          <div>
+            <ProductCard image="/images/9__1_-removebg-preview.png" />
+          </div>
+        </div>
+      </aside>
     </HeadFoot>
   );
 }
