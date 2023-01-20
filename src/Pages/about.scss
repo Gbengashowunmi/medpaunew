@@ -195,7 +195,9 @@
         }
         .details{
           padding: 1rem .9rem;
-
+ul{
+  grid-template-columns: 1fr;
+}
         }
       }
 }

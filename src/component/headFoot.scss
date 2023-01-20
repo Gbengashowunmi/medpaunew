@@ -91,7 +91,7 @@ footer {
     text-decoration: none;
 
   }
-  a:hover{}
+  // a:hover{}
   .about,
   .courses,
   .recent-posts,
@@ -264,6 +264,7 @@ footer {
       backdrop-filter: blur(6px);
       transform: translateX(100%);
       z-index: 95;
+      .appointment-btn{width: fit-content;}
     }
 
     .navbar-content.open {
