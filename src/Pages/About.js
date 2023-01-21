@@ -14,7 +14,15 @@ export default function About() {
         <div className="image">
           <div className="overlay"></div>
           <img src="/images/breadcrumb-image-1.jpg" alt="about-us" />
-          <div className="texts">
+          <div className="texts"
+                                data-aos="zoom-in-right"
+                                data-aos-offset="50"
+                                data-aos-delay="10"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-mirror="true"
+                                data-aos-once="false"
+          >
             <h2>About Us</h2>
             <p>
               <MdOutlineHome />

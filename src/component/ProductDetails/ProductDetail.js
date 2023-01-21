@@ -47,7 +47,7 @@ export default function ProductDetail() {
           <h4 className="price">$1135.00</h4>
           <p>Stock Available</p>
           <Button variant="contained" className="addtocart-btn">
-            Add to Cart
+            See More
           </Button>
         </div>
       </section>

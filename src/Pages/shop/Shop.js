@@ -29,7 +29,7 @@ export default function Shop() {
           </div>
         </div>
 
-<main>
+<main className='shop-main'>
         <div className="flash">
           <div className="header">
             <h3>
@@ -43,10 +43,10 @@ export default function Shop() {
             </button>
           </div>
           <div className="item-cards">
-           <div> <ItemCard/></div>
-           <div> <ItemCard/></div>
-           <div> <ItemCard/></div>
-           <div> <ItemCard/></div>
+           <div> <ItemCard images="/images/2-removebg-preview.png" productName="Product Name"/></div>
+           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div> 
+           <div> <ItemCard images="/images/2-removebg-preview.png" productName="Product Name"/></div>
+           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
 
 
           </div>
@@ -58,6 +58,7 @@ export default function Shop() {
                 <img src='/images/sales.png' alt='banner2'/>
             </div>
           </div>
+          <div className='top-ratings'></div>
         </main>
         </HeadFoot>
           )

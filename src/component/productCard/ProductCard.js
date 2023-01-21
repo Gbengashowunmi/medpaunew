@@ -7,7 +7,7 @@ export default function ProductCard({image}) {
         <img src={image} alt='product-pics' />
      <div className='sale'><p>SALE!</p></div> 
 
-<div className='add-to-cart'><p>ADD TO CART</p></div>
+<div className='add-to-cart'><p>Read More</p></div>
       </div>
         <div className='caption'>
             <h5 className='product-name'>Product Name</h5>
