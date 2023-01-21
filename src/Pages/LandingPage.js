@@ -139,7 +139,7 @@ export default function LandingPage() {
             data-aos-once="false"
           >
             <h3>What we sell</h3>
-            <button>Check it out</button>
+            <Link to="/shop"> <button>Check it out</button></Link>
           </div>
           <div
             className="hero-card"

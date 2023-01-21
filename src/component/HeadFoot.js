@@ -62,7 +62,7 @@ export default function HeadFoot({ children }) {
           <li>Our Blog</li>
           <li>MGTP</li>
           {/* <Button variant="contained">Contained</Button> */}
-          <button className="appointment-btn">APPOINTMENTS +</button>
+          <button className="appointment-btn">APPOINTMENTS </button>
         </ul>
       </header>
       {children}
@@ -124,6 +124,11 @@ export default function HeadFoot({ children }) {
               <FaChevronRight />
               Our Services
             </li>
+           <NavLink to="/shop"> <li>
+              <FaChevronRight />
+              Shop
+            </li>
+            </NavLink>
             <li>
               <FaChevronRight />
               Events

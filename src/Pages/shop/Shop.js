@@ -9,6 +9,7 @@ import './shop.scss'
 
 import HeadFoot from '../../component/HeadFoot'
 import ItemCard from '../../component/ItemCard/ItemCard';
+import ShortMessage from '../../component/shortMessage/ShortMessage';
 export default function Shop() {
   return (
     <HeadFoot>
@@ -27,6 +28,7 @@ export default function Shop() {
               <RiAccountPinCircleFill className="icon" />
             </div>
           </div>
+
         </div>
 
 <main className='shop-main'>
@@ -47,6 +49,9 @@ export default function Shop() {
            <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div> 
            <div> <ItemCard images="/images/2-removebg-preview.png" productName="Product Name"/></div>
            <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
+           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
+           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
+           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
 
 
           </div>
@@ -59,6 +64,22 @@ export default function Shop() {
             </div>
           </div>
           <div className='top-ratings'></div>
+
+          <section className='short-message-wrapper'>
+            <ShortMessage header="Worldwide Delivery
+" description="We offer competitive prices on our 100 million plus product any range.
+"/>
+            <ShortMessage header="Safe Payment
+" description="We offer competitive prices on our 100 million plus product any range.
+"/>
+            <ShortMessage header="Shop With Confidence
+" description="We offer competitive prices on our 100 million plus product any range.
+"/>
+            <ShortMessage header="24/7 Support
+" description="We offer competitive prices on our 100 million plus product any range.
+"/>
+       
+          </section>
         </main>
         </HeadFoot>
           )
