@@ -1,86 +1,199 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { BiCategory } from 'react-icons/bi'
+import React from "react";
+import { Link } from "react-router-dom";
+import { BiCategory } from "react-icons/bi";
 import { IoIosFlash } from "react-icons/io";
 
-import { BsCart4, BsForwardFill, BsSearch } from 'react-icons/bs'
-import { RiAccountPinCircleFill } from 'react-icons/ri'
-import './shop.scss'
+import { BsCart4, BsForwardFill, BsSearch } from "react-icons/bs";
+import { RiAccountPinCircleFill } from "react-icons/ri";
+import "./shop.scss";
 
-import HeadFoot from '../../component/HeadFoot'
-import ItemCard from '../../component/ItemCard/ItemCard';
-import ShortMessage from '../../component/shortMessage/ShortMessage';
+import HeadFoot from "../../component/HeadFoot";
+import ItemCard from "../../component/ItemCard/ItemCard";
+import ShortMessage from "../../component/shortMessage/ShortMessage";
 export default function Shop() {
   return (
     <HeadFoot>
-                <div className="top">
-          <button> <BiCategory className="icon" />CATEGORIES</button>
-          <div className="search">
-            <BsSearch className="search-icon" />
-            <input placeholder="Type and hit enter" />
-          </div>
-          <div className="cart_contact">
-           <Link to="/view-cart"> <div className="icon-container">
+      <div className="top">
+        <button>
+          {" "}
+          <BiCategory className="icon" />
+          CATEGORIES
+        </button>
+        <div className="search">
+          <BsSearch className="search-icon" />
+          <input placeholder="Type and hit enter" />
+        </div>
+        <div className="cart_contact">
+          <Link to="/view-cart">
+            {" "}
+            <div className="icon-container">
               <BsCart4 className="icon" />
             </div>
-            </Link>
-            <div className="icon-container">
-              <RiAccountPinCircleFill className="icon" />
-            </div>
+          </Link>
+          <div className="icon-container">
+            <RiAccountPinCircleFill className="icon" />
           </div>
-
         </div>
+      </div>
 
-<main className='shop-main'>
+      <main className="shop-main">
         <div className="flash">
           <div className="header">
             <h3>
-              <IoIosFlash className='icon' />
+              <IoIosFlash className="icon" />
               Flash
             </h3>
             <button>
               <p>
-                View all <BsForwardFill className='icon' />
+                View all <BsForwardFill className="icon" />
               </p>
             </button>
           </div>
           <div className="item-cards">
-           <div> <ItemCard images="/images/2-removebg-preview.png" productName="Product Name"/></div>
-           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div> 
-           <div> <ItemCard images="/images/2-removebg-preview.png" productName="Product Name"/></div>
-           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
-           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
-           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
-           <div> <ItemCard images="/images/9__1_-removebg-preview.png" productName="Product Name"/></div>
-
-
-          </div>
-
-        </div>
-          <div className='sales-banner'>
-            <div className='banner1'></div>
-            <div className='banner2'>
-                <img src='/images/sales.png' alt='banner2'/>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/2-removebg-preview.png"
+                productName="Product Name"
+              />
+            </div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/9__1_-removebg-preview.png"
+                productName="Product Name"
+              />
+            </div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/2-removebg-preview.png"
+                productName="Product Name"
+              />
+            </div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/9__1_-removebg-preview.png"
+                productName="Product Name"
+              />
+            </div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/9__1_-removebg-preview.png"
+                productName="Product Name"
+              />
+            </div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/9__1_-removebg-preview.png"
+                productName="Product Name"
+              />
+            </div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="50"
+              data-aos-delay="10"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+            >
+              <ItemCard
+                images="/images/9__1_-removebg-preview.png"
+                productName="Product Name"
+              />
             </div>
           </div>
-          <div className='top-ratings'></div>
+        </div>
+        <div className="sales-banner">
+          <div className="banner1"></div>
+          <div className="banner2">
+            <img src="/images/sales.png" alt="banner2" />
+          </div>
+        </div>
+        <div className="top-ratings"></div>
 
-          <section className='short-message-wrapper'>
-            <ShortMessage header="Worldwide Delivery
-" description="We offer competitive prices on our 100 million plus product any range.
-"/>
-            <ShortMessage header="Safe Payment
-" description="We offer competitive prices on our 100 million plus product any range.
-"/>
-            <ShortMessage header="Shop With Confidence
-" description="We offer competitive prices on our 100 million plus product any range.
-"/>
-            <ShortMessage header="24/7 Support
-" description="We offer competitive prices on our 100 million plus product any range.
-"/>
-       
-          </section>
-        </main>
-        </HeadFoot>
-          )
+        <section
+          className="short-message-wrapper"
+          data-aos="zoom-in-right"
+          data-aos-offset="50"
+          data-aos-delay="10"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        >
+          <ShortMessage
+            header="Worldwide Delivery
+"
+            description="We offer competitive prices on our 100 million plus product any range.
+"
+          />
+          <ShortMessage
+            header="Safe Payment
+"
+            description="We offer competitive prices on our 100 million plus product any range.
+"
+          />
+          <ShortMessage
+            header="Shop With Confidence
+"
+            description="We offer competitive prices on our 100 million plus product any range.
+"
+          />
+          <ShortMessage
+            header="24/7 Support
+"
+            description="We offer competitive prices on our 100 million plus product any range.
+"
+          />
+        </section>
+      </main>
+    </HeadFoot>
+  );
 }
