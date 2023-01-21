@@ -1,5 +1,7 @@
 
-
+:global {
+  @import 'node_modules/slick-carousel/slick/slick';
+}
 :root {
   --clr-primary: #2490eb;
   --clr-secondary: #14457b;

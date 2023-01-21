@@ -8,6 +8,8 @@ import LandingPage from "./Pages/LandingPage";
 import About from "./Pages/About";
 import ScrollToTopNav from "./component/ScrollToTopNav";
 import Shop from "./Pages/shop/Shop";
+import ProductDetail from "./component/ProductDetails/ProductDetail";
+
 AOS.init();
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/" element={<LandingPage/>}></Route>
         <Route path="about" element={<About/>}></Route>
         <Route path="shop" element={<Shop/>}></Route>
+        <Route path="details" element={<ProductDetail/>}></Route>
       </Routes>
 
       </BrowserRouter>
