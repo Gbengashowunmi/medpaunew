@@ -86,6 +86,12 @@
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  transition: .6s;
+  outline: none;
+}
+.details button:hover{
+    background-color: black;
+
 }
 
 @media (max-width: 990px) {
