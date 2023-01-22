@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CenterSlider from "../component/CenterSlider";
 import HeadFoot from "../component/HeadFoot";
 import ProductCard from "../component/productCard/ProductCard";
 import Reviews from "../component/reviews/Reviews";
+import SimpleSlider from "../component/SimpleSlider";
 import "./landing.scss";
 export default function LandingPage() {
   return (
@@ -253,7 +255,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <sectio className="our-vision"></sectio>
+      <section className="our-vision"></section>
 
       <section className="reviews">
         <h6 className="light-blue-bg-text head">OUR CLIENTS</h6>
@@ -289,27 +291,9 @@ export default function LandingPage() {
           </Link>
         </div>
         <div
-          className="products-container"
-          data-aos="fade-up"
-          data-aos-offset="20"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-        >
-          <div>
-            <ProductCard image="/images/drager--300x300.png" />
-          </div>
-          <div>
-            <ProductCard image="/images/csm_BAS011_4008S_07f521bc0b-300x300.jpg" />
-          </div>
-          <div>
-            <ProductCard image="/images/dialysiscouch-300x300.jpg" />
-          </div>
-          <div>
-            <ProductCard image="/images/drager--300x300.png" />
-          </div>
+          className="products-container">
+
+          <SimpleSlider/>
         </div>
       </aside>
 
@@ -319,27 +303,9 @@ export default function LandingPage() {
           <h2>New Arrivals</h2>
         </div>
         <div
-          className="products-container"
-          data-aos="fade-up"
-          data-aos-offset="20"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          data-aos-mirror="true"
-          data-aos-once="true"
-        >
-          <div>
-            <ProductCard image="/images/2-removebg-preview.png" />
-          </div>
-          <div>
-            <ProductCard image="/images/9__1_-removebg-preview.png" />
-          </div>
-          <div>
-            <ProductCard image="/images/2-removebg-preview.png" />
-          </div>
-          <div>
-            <ProductCard image="/images/9__1_-removebg-preview.png" />
-          </div>
+          className="products-container">
+
+<CenterSlider/>
         </div>
       </aside>
     </HeadFoot>

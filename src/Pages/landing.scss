@@ -66,14 +66,13 @@ main {
           margin-left: 10%;
           padding-top: 13vw;
         }
-        p{
+        p {
           color: white;
         }
         h1 {
           color: white;
           font-size: 6vw;
           text-shadow: 2px 4px black;
-
         }
         button {
           box-shadow: 2px 4px 8px var(--clr-secondary);
@@ -85,7 +84,7 @@ main {
           color: white;
           cursor: pointer;
         }
-        button:hover{
+        button:hover {
           background-color: var(--clr-secondary);
         }
       }
@@ -261,14 +260,13 @@ main {
   }
 }
 
-.reviews{
+.reviews {
   background-color: var(--clr-background-grey);
   margin-top: 20px;
 }
 .featured-post,
 .new-arrivals {
   margin-top: 2rem;
-
   .head {
     display: flex;
     flex-direction: column;
@@ -298,10 +296,8 @@ main {
   }
   .products-container {
     width: 100%;
-    padding: 0.5rem 0.8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 2rem;
+    padding: 0.5rem 2rem;
+    
   }
 }
 
