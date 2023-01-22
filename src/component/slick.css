@@ -68,7 +68,7 @@
 /* border: 2px solid hotpink; */
 }
 
-.details p {
+.carousel-item .details p {
   color: white;
   text-shadow: 2px 3px black;
 }

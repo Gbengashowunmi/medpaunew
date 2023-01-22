@@ -4,6 +4,8 @@ import Carousel from "../component/Carousel";
 import CenterSlider from "../component/CenterSlider";
 import HeadFoot from "../component/HeadFoot";
 import Reviews from "../component/reviews/Reviews";
+import ReviewSlider from "../component/reviews/ReviewSlider";
+
 import SimpleSlider from "../component/SimpleSlider";
 import "./landing.scss";
 export default function LandingPage() {
@@ -150,23 +152,10 @@ export default function LandingPage() {
         <h3>Our Satisfied Clients' Reviews</h3>
         <div className="reviews-wrapper">
           <div>
-            <Reviews />
+            <ReviewSlider/>
           </div>
-          <div>
-            <Reviews />
-          </div>
-          <div>
-            <Reviews />
-          </div>
-          <div>
-            <Reviews />
-          </div>
-          <div>
-            <Reviews />
-          </div>
-          <div>
-            <Reviews />
-          </div>
+
+
         </div>
       </section>
       <aside className="featured-post">

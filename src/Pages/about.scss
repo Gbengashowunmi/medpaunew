@@ -128,14 +128,8 @@ width: 100%;
     margin: auto;
   }
   .reviews-wrapper {
-    width: 95%;
+    width: 90%;
     margin: auto;
-    display: flex;
-    overflow-x: scroll;
-    padding: 5px;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
   }
 }
 
@@ -163,13 +157,7 @@ width: 100%;
       margin: 2rem 0.5rem;
     }
   }
-  .reviews {
-    .reviews-wrapper {
-      width: 100%;
-      display: flex;
-      padding: 5px;
-    }
-  }
+
 }
 
 @media (max-width:550px) {

@@ -11,7 +11,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { MdEmail, MdLocationPin } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function HeadFoot({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +44,7 @@ export default function HeadFoot({ children }) {
       ></div>
       <header className="nav">
         <div className="comapany-icon">
-          <h2>MedPau</h2>
+         <Link to="/"> <h2>MedPau</h2> </Link>
 
           <div onClick={handleToggle}>
             <HiMenuAlt3 className={`nav-bar ${isOpen ? "white" : ""}`} />
