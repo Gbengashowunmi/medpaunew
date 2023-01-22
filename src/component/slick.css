@@ -30,7 +30,7 @@
 
 .slick-list .item{
     /* border: 2px solid red; */
-    /* width: 35%; */
+    width: 100%;
     padding: 0 2rem;
     padding-bottom: 2rem;
 }
