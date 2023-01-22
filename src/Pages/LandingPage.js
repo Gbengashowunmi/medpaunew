@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Carousel from "../component/Carousel";
 import CenterSlider from "../component/CenterSlider";
 import HeadFoot from "../component/HeadFoot";
-import ProductCard from "../component/productCard/ProductCard";
 import Reviews from "../component/reviews/Reviews";
 import SimpleSlider from "../component/SimpleSlider";
 import "./landing.scss";
@@ -10,122 +10,10 @@ export default function LandingPage() {
   return (
     <HeadFoot>
       <main>
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              className="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                className="d-block w-100"
-                src="/images/hero_home_01.jpg"
-                alt="First slide"
-              />
-              <div className="details">
-                <p>
-                  Medical equipment engineers design, develop, and maintain
-                  medical equipment to ensure safety and effectiveness.
-                </p>
-                <h1
-                  data-aos="zoom-in-right"
-                  data-aos-offset="50"
-                  data-aos-delay="10"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
-                >
-                  {" "}
-                  Our expertise at your Service
-                </h1>
-                <button
-                  data-aos="zoom-in-up"
-                  data-aos-offset="50"
-                  data-aos-delay="10"
-                  data-aos-duration="1000"
-                  data-aos-easing="ease-in-out"
-                  data-aos-mirror="true"
-                  data-aos-once="false"
-                >Read More</button>
-              </div>
-              <div className="overlay"></div>
-            </div>
-            <div className="carousel-item">
-              <img
-                className="d-block w-100"
-                src="/images/her-bg-slider.jpg"
-                alt="Second slide"
-              />
-              <div className="details">
-                <p>
-                  Discounted medical equipment can save cost, but ensure it's
-                  still reliable and meets safety standards before purchase.
-                </p>
-                <h1> Discounted Price of Medical Equipments</h1>
-                <button>Read More</button>
-              </div>
-              <div className="overlay"></div>
-            </div>
-            <div className="carousel-item">
-              <img
-                className="d-block w-100"
-                src="/images/medical-image-bg.jpg"
-                alt="Third slide"
-              />
-              <div className="details">
-                <p>
-                  Essential for accurate diagnosis and treatment, medical
-                  equipment should be high-quality, reliable and regularly
-                  maintained.
-                </p>
-                <h1> Reliable Quality Of Equipments</h1>
-                <button>Read More</button>
-              </div>
-              <div className="overlay"></div>
-            </div>
-          </div>
-          <a
-            className="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
 
-        {/* <div className="hero-image">
-          <img src="/images/hero_home_01.jpg" alt="hero-img" />
-        </div> */}
-        {/* <div className="hero-text">
-          <h1> Our expertise at your Service</h1>
-        </div> */}
+        <div>
+          <Carousel/>
+        </div>
       </main>
       <div className="hero-card-wrapper">
         <img src="/images/background_image_02.jpg" alt="card" />
@@ -141,7 +29,10 @@ export default function LandingPage() {
             data-aos-once="false"
           >
             <h3>What we sell</h3>
-            <Link to="/shop"> <button>Check it out</button></Link>
+            <Link to="/shop">
+              {" "}
+              <button>Check it out</button>
+            </Link>
           </div>
           <div
             className="hero-card"
@@ -290,10 +181,8 @@ export default function LandingPage() {
             <button> SEE MORE</button>
           </Link>
         </div>
-        <div
-          className="products-container">
-
-          <SimpleSlider/>
+        <div className="products-container">
+          <SimpleSlider />
         </div>
       </aside>
 
@@ -302,10 +191,8 @@ export default function LandingPage() {
           <h6>FEATURE</h6>
           <h2>New Arrivals</h2>
         </div>
-        <div
-          className="products-container">
-
-<CenterSlider/>
+        <div className="products-container">
+          <CenterSlider />
         </div>
       </aside>
     </HeadFoot>
