@@ -10,10 +10,7 @@ export default function LandingPage() {
   return (
     <HeadFoot>
       <main>
-
-        <div>
           <Carousel/>
-        </div>
       </main>
       <div className="hero-card-wrapper">
         <img src="/images/background_image_02.jpg" alt="card" />

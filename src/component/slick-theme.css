@@ -18,7 +18,7 @@
 {
     font-size: 0;
     line-height: 0;
-
+z-index: 99;
     position: absolute;
     top: 50%;
 
@@ -118,8 +118,9 @@
 
 .slick-dots
 {
+    
     position: absolute;
-    bottom: -25px;
+    bottom: 0;
 
     display: block;
 
