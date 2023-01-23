@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import React from "react";
-import HeadFoot from "../HeadFoot";
+import HeadFoot from "../../component/HeadFoot";
 import "./ProductDetails.scss";
 
 

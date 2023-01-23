@@ -3,10 +3,10 @@
   @import 'node_modules/slick-carousel/slick/slick';
 }
 :root {
-  --clr-primary: #2490eb;
-  --clr-secondary: #14457b;
-  --clr-primary-light: #5249ff;
-  --clr-light-blue-btn:#d3e9fb;
+  --clr-primary: #0020FF;
+  --clr-secondary: #02127c;
+  --clr-primary-light: #2843f5;
+  --clr-light-blue-btn:#adb7fc;
   --clr-white: #fff;
   --clr-background-grey:rgb(240, 244, 247);
   --clr-border-shadow: rgb(161, 161, 161);

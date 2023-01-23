@@ -44,7 +44,7 @@ export default function HeadFoot({ children }) {
       ></div>
       <header className="nav">
         <div className="comapany-icon">
-         <Link to="/"> <h2>MedPau</h2> </Link>
+         <Link to="/"> <div className="logo"><img src="/images/WhatsApp_Image_2023-01-23_at_9.13.05_AM-removebg-preview.png" alt="logo" /></div> </Link>
 
           <div onClick={handleToggle}>
             <HiMenuAlt3 className={`nav-bar ${isOpen ? "white" : ""}`} />
@@ -61,7 +61,7 @@ export default function HeadFoot({ children }) {
           <li>Service</li>
           <li>Our Blog</li>
           <li>MGTP</li>
-          {/* <Button variant="contained">Contained</Button> */}
+
           <button className="appointment-btn">APPOINTMENTS </button>
         </ul>
       </header>
@@ -90,9 +90,10 @@ export default function HeadFoot({ children }) {
             <li>
               <FaGooglePlusG />
             </li>
-            <li>
+          <Link to="//linkedin.com/company/medpau/" target="_blank">  <li>
               <FaLinkedinIn />
             </li>
+            </Link>
             <li>
               <FaTwitter />
             </li>

@@ -61,8 +61,8 @@ export default function About() {
             24/7 online support. Our partnership with global brands and
             world-leading medical equipment manufacturers to meet our
             obligations is indeed one way in which our lasting impact in this
-            forever revolutionary course has been measured{" "}
-            <button>Read More</button>
+            forever revolutionary course has been measured <span>...Read More</span>
+           
           </p>
 
           <ul

@@ -8,8 +8,8 @@ import LandingPage from "./Pages/LandingPage";
 import About from "./Pages/About";
 import ScrollToTopNav from "./component/ScrollToTopNav";
 import Shop from "./Pages/shop/Shop";
-import ProductDetail from "./component/ProductDetails/ProductDetail";
-
+import ProductDetail from "./Pages/ProductDetails/ProductDetail";
+  
 AOS.init();
 function App() {
   return (
