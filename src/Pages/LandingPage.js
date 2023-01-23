@@ -113,7 +113,7 @@ export default function LandingPage() {
             <img src="/images/card_image_01.jpg" alt="aside" />
           </div>
           <div className="text">
-            <h1>What we Offer</h1>
+            <h2>What we Offer</h2>
             <p>
               Our qualified Service Engineers offer predictable maintenance and
               after sales support services
@@ -135,7 +135,7 @@ export default function LandingPage() {
             <img src="/images/card_image_02.jpg" alt="aside" />
           </div>
           <div className="text">
-            <h1>Our Process</h1>
+            <h2>Our Process</h2>
             <p>
               Our qualified Service Engineers offer predictable maintenance and
               after sales support services
